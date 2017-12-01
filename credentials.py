@@ -1,2 +1,1 @@
 
-class Credentials(unittest.Testcase):
