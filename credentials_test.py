@@ -1,4 +1,4 @@
 import unittest
-from credentials import credential
+from credentials import Credential
 
-class credential(unittest.TestCase)
+class TestCredential(unittest.TestCase)
