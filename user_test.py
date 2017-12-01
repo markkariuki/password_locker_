@@ -19,3 +19,10 @@ self.new_user = User("davy","mark","markkariuki17@gmail.com") # create user obje
     '''
     test_init test case to test if the object is initialized properly
     '''
+     self.assertEqual(self.new_contact.first_name,"davy")
+        self.assertEqual(self.new_contact.last_name,"mark")
+        self.assertEqual(self.new_contact.email,"markkariuki17@gmail.com")
+
+
+if __name__ == '__main__':
+    unittest.main()
