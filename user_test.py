@@ -1,7 +1,7 @@
 import unittest # Importing the unittest module
 from credentials import credential # Importing the contact class
 
-class TestCredentials(unittest.TestCase)
+class TestCredentials(unittest.TestCase):
     '''
     Test class that defines test cases for the contact class behaviours.
 
